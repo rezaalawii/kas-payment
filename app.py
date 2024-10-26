@@ -15,7 +15,7 @@ xendit_client = Xendit(api_key=os.getenv('XENDIT_SECRET_KEY'))
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return ('index.html')
 
 @app.route('/api/create-payment', methods=['POST'])
 def create_payment():
