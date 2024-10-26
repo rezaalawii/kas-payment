@@ -1,0 +1,9 @@
+/* Custom styles if needed */
+.loading {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.error-input {
+    border-color: #ef4444 !important;
+}
